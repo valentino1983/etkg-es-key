@@ -1,15 +1,15 @@
 <div align="center">
 
-  <img src="https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/logo_alt.png?raw=true" alt="logo"/>
+  <img src="https://github.com/shadowcopyrz/etkg/blob/main/img/logo_alt.png?raw=true" alt="logo"/>
     
   ![Version](https://img.shields.io/badge/version-1.5.5.8-gold)
   
-  [![Commit activity](https://img.shields.io/github/commit-activity/t/rzc0d3r/ESET-KeyGen/main?cacheSeconds=0)](https://github.com/rzc0d3r/ESET-KeyGen/commits/main)
-  ![Last commit](https://img.shields.io/github/last-commit/rzc0d3r/ESET-KeyGen/main?cacheSeconds=0)
+  [![Commit activity](https://img.shields.io/github/commit-activity/t/shadowcopyrz/etkg/main?cacheSeconds=0)](https://github.com/shadowcopyrz/etkg/commits/main)
+  ![Last commit](https://img.shields.io/github/last-commit/shadowcopyrz/etkg/main?cacheSeconds=0)
   ![Last test](https://img.shields.io/badge/last_test-07.08.2025_04:57_UTC+3-blue)
-  [![Opened issues](https://img.shields.io/github/issues/rzc0d3r/ESET-KeyGen?color=darkred)](https://github.com/rzc0d3r/ESET-KeyGen/issues?cacheSeconds=0)
-  [![Closed issues](https://img.shields.io/github/issues-closed/rzc0d3r/ESET-KeyGen?color=darkgreen&cacheSeconds=0)](https://github.com/rzc0d3r/ESET-KeyGen/issues?q=is%3Aissue+is%3Aclosed)
-  ![License](https://img.shields.io/github/license/rzc0d3r/ESET-KeyGen)
+  [![Opened issues](https://img.shields.io/github/issues/shadowcopyrz/etkg?color=darkred)](https://github.com/shadowcopyrz/etkg/issues?cacheSeconds=0)
+  [![Closed issues](https://img.shields.io/github/issues-closed/shadowcopyrz/etkg?color=darkgreen&cacheSeconds=0)](https://github.com/shadowcopyrz/etkg/issues?q=is%3Aissue+is%3Aclosed)
+  ![License](https://img.shields.io/github/license/shadowcopyrz/etkg)
 
 # ESET-KeyGen
 ESET-KeyGen - Trial-Key & Account generator for ESET Products
@@ -26,7 +26,7 @@ Use at your own risk and only on systems you own or have explicit permission to 
 
 ---
 ## 💰 Donations 💰
-You can support this project financially by following the link [here](https://github.com/rzc0d3r/ESET-KeyGen?tab=readme-ov-file#-donations--1) 
+You can support this project financially by following the link [here](https://github.com/shadowcopyrz/etkg?tab=readme-ov-file#-donations--1) 
 
 ---
 
@@ -69,7 +69,7 @@ ESET -> Settings -> Advanced Setup -> Detection Engine -> Exclusions -> Detectio
 # Getting Started
 
 ## 1. Using GitHub Actions CI
-You can simply use the GitHub actions workflow given [here](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/.github/workflows/eset.yml) in your GitHub repo.
+You can simply use the GitHub actions workflow given [here](https://github.com/shadowcopyrz/etkg/blob/main/.github/workflows/eset.yml) in your GitHub repo.
 
 Make a fork of my project. Go to it.
 Then goto the **Actions** tab, choose **Account and Key Generator** actions and then run the workflow.
@@ -147,7 +147,7 @@ Delete your current ESET HOME account
 2. Do not create many license keys and accounts in a short period of time, otherwise you will be blocked in ESET HOME for a certain period of time
 3. If the program crashes after many attempts and you know that the program is up to date. Try using a VPN
 4. If an **ACT0** or **ACT5** error occurs during activation, check whether the ESET HOME account is connected. If so, disconnect it and try again.
-   If the error persists, try activating with [Account Generator](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/AccountGenerator.md).
+   If the error persists, try activating with [Account Generator](https://github.com/shadowcopyrz/etkg/blob/main/wiki/AccountGenerator.md).
    If still getting this error reinstall ESET and try again.
 5. The **ecp4125** error may appear when trying to activate the antivirus using an account. Solution: try again later or use keys.
 6. You can use the ``--skip-webdriver-menu`` argument, which will skip my WebDriverInstaller shell (Useful for various bugs with webdriver updates, and when using a non-standard browser like Brave or some dev-build, etc).
