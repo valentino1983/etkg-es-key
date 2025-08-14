@@ -59,7 +59,7 @@ If the program used all proxies, it will switch to the original IP.
 <details>
   <summary>ESET HOME Security Premium</summary>
   
-  1. Run main.py or executable file or use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file or use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --key
   ```
@@ -71,13 +71,13 @@ If the program used all proxies, it will switch to the original IP.
   2. Wait until you will see the license data
   > This information will also be written to a file named "Today date - ESET KEYS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/key_run_win.png)
+  ![Windows](../img/key_run_win.png)
 </details>
 
 <details>
   <summary>ESET Small Business Security</summary>
   
-  1. Run main.py or executable file or use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file or use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --small-business-key
   ```
@@ -89,13 +89,13 @@ If the program used all proxies, it will switch to the original IP.
   2. Wait until you will see the license data
   > This information will also be written to a file named "Today date - ESET KEYS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/small_business_key_run_win.png)
+  ![Windows](../img/small_business_key_run_win.png)
 </details>
 
 <details>
   <summary>ESET PROTECT Advanced (ESET Endpoint Security + ESET Server Security, ESET LiveGuard Advanced for Endpoint Security + Server Security, ESET Mobile Threat Defense, ESET Full Disk Encryption)</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --advanced-key
   ```
@@ -111,13 +111,13 @@ If the program used all proxies, it will switch to the original IP.
   3. Wait until you will see the license data
   > This information will also be written to a file named "Today date - ESET KEYS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/endpoint_key_run_win.png)
+  ![Windows](../img/endpoint_key_run_win.png)
 </details>
 
 <details>
   <summary>ESET VPN (It's not working right now!!!)</summary>
   
-  1. Run main.py or executable file or use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file or use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --vpn-codes
   ```
@@ -129,7 +129,7 @@ If the program used all proxies, it will switch to the original IP.
   2. Wait until you will see the license data and vpn codes
   > This information will also be written to a file named "Today date - ESET KEYS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/vpn_codes_run_win.png)
+  ![Windows](../img/vpn_codes_run_win.png)
 </details>
 
 ---
@@ -140,7 +140,7 @@ If the program used all proxies, it will switch to the original IP.
   <summary>ESET HOME Security Premium | ESET Small Business Security</summary>
   
   #### ESET HOME Security Premium
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --key --custom-email-api
   ```
@@ -150,7 +150,7 @@ If the program used all proxies, it will switch to the original IP.
   > File name is unique for each version! Do not copy the above command. This is an example!
 
   #### ESET Small Business Security
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --small-business-key --custom-email-api
   ```
@@ -170,22 +170,22 @@ If the program used all proxies, it will switch to the original IP.
 
      Then open that email and copy the link that is in the button (right click on the button, copy link address) and paste it into the console. If you have done everything correctly, the generation will complete successfully!
 
-     ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/activated_href_esethome.png)
+     ![Windows](../img/activated_href_esethome.png)
 
   4. Wait until appears you will see the license data 
   > This information will also be written to a file named "Today date - ESET KEYS.txt"
 
   #### ESET HOME Security Premium
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/key_run_win_custom_email_api.png)
+  ![Windows](../img/key_run_win_custom_email_api.png)
 
   #### ESET Small Business Security
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/small_business_key_run_win_custom_email_api.png)
+  ![Windows](../img/small_business_key_run_win_custom_email_api.png)
 </details>
 
 <details>
   <summary>ESET PROTECT Advanced (ESET Endpoint Security + ESET Server Security, ESET LiveGuard Advanced for Endpoint Security + Server Security, ESET Mobile Threat Defense, ESET Full Disk Encryption)</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --advanced-key --custom-email-api
   ```
@@ -207,11 +207,11 @@ If the program used all proxies, it will switch to the original IP.
 
      Then open that email and copy the link that is in the button (right click on the button, copy link address) and paste it into the console. If you have done everything correctly, the generation will complete successfully!
 
-     ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/activated_href_protecthub.png)
+     ![Windows](../img/activated_href_protecthub.png)
 
   5. Wait for the inscription *"Wait for a message to your e-mail about successful key generation!!!"*
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/endpoint_key_run_win_custom_email_api.png)
+  ![Windows](../img/endpoint_key_run_win_custom_email_api.png)
 
   6. Wait for the license data to appear (you will have to wait)
   This information will be sent to your e-mail in the form of a letter in the format of:
@@ -222,13 +222,13 @@ If the program used all proxies, it will switch to the original IP.
 
   Then open that email, scroll down a bit and you'll see the license key!
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/protecthub_license_data_message.png)
+  ![Windows](../img/protecthub_license_data_message.png)
 </details>
 
 <details>
   <summary>ESET VPN (It's not working right now!!!)</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --vpn-codes --custom-email-api
   ```
@@ -248,11 +248,11 @@ If the program used all proxies, it will switch to the original IP.
 
      Then open that email and copy the link that is in the button (right click on the button, copy link address) and paste it into the console. If you have done everything correctly, the generation will complete successfully!
 
-     ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/activated_href_esethome.png)
+     ![Windows](../img/activated_href_esethome.png)
 
   4. Wait for the inscription *"Wait for a message to your e-mail about instructions on how to set up the VPN!!!"*
   
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/vpn_codes_run_win_custom_email_api.png)
+  ![Windows](../img/vpn_codes_run_win_custom_email_api.png)
     
   5. Wait for the **VPM Codes** to appear (you will have to wait)
   This information will be sent to your e-mail in the form of a letter in the format of:
@@ -263,7 +263,7 @@ If the program used all proxies, it will switch to the original IP.
   
   Then open that email, scroll down a bit and you'll see the **VPN Codes**!
   
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/vpn_codes_message.png)
+  ![Windows](../img/vpn_codes_message.png)
 </details>
 
 ---
@@ -274,4 +274,4 @@ This will allow you to bind the key to another **ProtectHub** account (sometimes
 
 To do this, enter ```Y``` to confirm and ```N``` to decline after the message appears in the console:
 
-![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/unbinding_protecthub_key.png)
+![Windows](../img/unbinding_protecthub_key.png)

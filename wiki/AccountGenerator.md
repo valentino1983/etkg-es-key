@@ -59,7 +59,7 @@ If the program used all proxies, it will switch to the original IP.
 <details>
   <summary>ESET HOME Account</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --account
   ```
@@ -71,13 +71,13 @@ If the program used all proxies, it will switch to the original IP.
   2. Wait until you will see the account data
   > This information will also be written to a file named "Today date - ESET ACCOUNTS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/account_run_win.png)
+  ![Windows](../img/account_run_win.png)
 </details>
 
 <details>
   <summary>ESET ProtectHub Account </summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --protecthub-account
   ```
@@ -93,7 +93,7 @@ If the program used all proxies, it will switch to the original IP.
   3. Wait until you will see the account data
   > This information will also be written to a file named "Today date - ESET ACCOUNTS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/protecthub_account_run_win.png)
+  ![Windows](../img/protecthub_account_run_win.png)
 </details>
 
 ## 4. Generation using your email provider
@@ -101,7 +101,7 @@ If the program used all proxies, it will switch to the original IP.
 <details>
   <summary>ESET HOME Account</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --account --custom-email-api
   ```
@@ -121,18 +121,18 @@ If the program used all proxies, it will switch to the original IP.
 
      Then open that email and copy the link that is in the button (right click on the button, copy link address) and paste it into the console. If you have done everything correctly, the generation will complete successfully!
 
-     ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/activated_href_esethome.png)
+     ![Windows](../img/activated_href_esethome.png)
 
   4. Wait until you will see the account data
   > This information will also be written to a file named "Today date - ESET ACCOUNTS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/account_run_win_custom_email_api.png)
+  ![Windows](../img/account_run_win_custom_email_api.png)
 </details>
 
 <details>
   <summary>ESET ProtectHub Account</summary>
   
-  1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
+  1. Run main.py or executable file use [MBCI](MBCI-Inferface.md):
   ```
   python main.py --chrome --protecthub-account --custom-email-api
   ```
@@ -154,10 +154,10 @@ If the program used all proxies, it will switch to the original IP.
 
      Then open that email and copy the link that is in the button (right click on the button, copy link address) and paste it into the console. If you have done everything correctly, the generation will complete successfully!
 
-     ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/activated_href_protecthub.png)
+     ![Windows](../img/activated_href_protecthub.png)
 
   5. Wait until you will see the account data
   > This information will also be written to a file named "Today date - ESET ACCOUNTS.txt"
 
-  ![Windows](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/img/protecthub_account_run_win_custom_email_api.png)
+  ![Windows](../img/protecthub_account_run_win_custom_email_api.png)
 </details>
