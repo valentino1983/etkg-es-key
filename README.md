@@ -61,10 +61,6 @@ To stop my project from being blocked by antivirus, add the project folder to th
 ESET -> Settings -> Advanced Setup -> Detection Engine -> Exclusions -> Detection Exclusions -> add ```full path to ESET-KeyGen-main folder```
 
 ---
-### My github page is currently blocked by ESET Antivirus, so you will not be able to access the project.
-### Before you can access my github page, you need to disable internet protection in Eset Antivirus. You now have access to this release! After you have done everything you want to do, turn internet protection back on.
-### [The second way around this](wiki/GithubWorkaround.md)
----
 
 # Getting Started
 
