@@ -65,7 +65,7 @@ ESET -> Settings -> Advanced Setup -> Detection Engine -> Exclusions -> Detectio
 # Getting Started
 
 ## 1. Using GitHub Actions CI
-You can simply use the GitHub actions workflow given [here](https://github.com/shadowcopyrz/etkg/blob/main/.github/workflows/eset.yml) in your GitHub repo.
+You can simply use the GitHub actions workflow given [here](actions/workflows/eset.yml) in your GitHub repo.
 
 Make a fork of my project. Go to it.
 Then goto the **Actions** tab, choose **Account and Key Generator** actions and then run the workflow.
