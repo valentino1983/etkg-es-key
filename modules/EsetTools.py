@@ -240,6 +240,7 @@ class EsetProtectHubRegister(object):
             self.window_handle = self.driver.current_window_handle
         self.driver.get('https://protecthub.eset.com/public/registration?culture=en-US')
         uCE(self.driver, f'return {GET_EBID}("continue") != null')
+        untilConditionExecute(self.driver, f'return {CLICK_WITH_BOOL}({GET_EBID}("cc-accept"))', max_iter=10)
         logging.info('Successfully!')
         console_log('Successfully!', OK, silent_mode=SILENT_MODE)
 
@@ -248,15 +249,17 @@ class EsetProtectHubRegister(object):
         console_log('\nData filling...', INFO, silent_mode=SILENT_MODE)
         exec_js(f'return {GET_EBID}("email-input")').send_keys(self.email_obj.email)
         exec_js(f'return {GET_EBID}("company-name-input")').send_keys(dataGenerator(10))
+        
         # Select country
-        exec_js(f"return {GET_EBID}('country-select')").click()
         selected_country = 'Ukraine'
+        exec_js(f"return {GET_EBID}('country-select')").click()
         logging.info('Selecting the country...')
         for country in self.driver.find_elements('xpath', '//div[starts-with(@class, "select")]'):
             if country.text == selected_country:
                 country.click()
                 logging.info('Country selected!')
-                break
+                break        
+        
         exec_js(f'return {GET_EBID}("company-vat-input")').send_keys(dataGenerator(10, True))
         exec_js(f'return {GET_EBID}("company-crn-input")').send_keys(dataGenerator(10, True))
         logging.warning('Solve the captcha on the page manually!!!')
@@ -271,7 +274,7 @@ class EsetProtectHubRegister(object):
             time.sleep(1)
         exec_js(f'return {GET_EBID}("continue").click()')
         try:
-            uCE(self.driver, f'return {GET_EBID}("registration-email-sent").innerText === "We sent you a verification email"', max_iter=10)
+            uCE(self.driver, f'return {GET_EBID}("registration-email-sent").innerText === "We sent you a verification email"', max_iter=15)
             logging.info('Successfully!')
             console_log('Successfully!', OK, silent_mode=SILENT_MODE)
         except:

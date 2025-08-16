@@ -26,7 +26,7 @@ if ('--disable-logging' not in sys.argv and not MBCI_MODE) or ('--disable-loggin
 from modules.EmailAPIs import *
 
 # ---- Quick settings [for Developers to quickly change behavior without changing all files] ----
-VERSION = ['v1.5.5.9', 1559]
+VERSION = ['v1.5.6.0', 1560]
 LOGO = f"""
 ███████╗███████╗███████╗████████╗   ██╗  ██╗███████╗██╗   ██╗ ██████╗ ███████╗███╗   ██╗
 ██╔════╝██╔════╝██╔════╝╚══██╔══╝   ██║ ██╔╝██╔════╝╚██╗ ██╔╝██╔════╝ ██╔════╝████╗  ██║
@@ -672,7 +672,7 @@ def main(disable_exit=False):
         PROXIES.remove(PROXIES[0])
         if PROXY_COUNTER < PROXIES_LEN:
             PROXY_COUNTER += 1
-
+    input("....")
     if globals().get('DRIVER', None) is not None:
         DRIVER.quit()
     if not disable_exit:
