@@ -672,7 +672,7 @@ def main(disable_exit=False):
         PROXIES.remove(PROXIES[0])
         if PROXY_COUNTER < PROXIES_LEN:
             PROXY_COUNTER += 1
-    input("....")
+
     if globals().get('DRIVER', None) is not None:
         DRIVER.quit()
     if not disable_exit:
@@ -751,3 +751,4 @@ if __name__ == '__main__':
                     main(disable_exit=True)
             except KeyboardInterrupt:
                 exit_program(0, DRIVER)
+
